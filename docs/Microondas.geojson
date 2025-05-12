@@ -1,0 +1,25 @@
+{
+    "type":"FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type":"point",
+                "coordenates":[]
+            
+            },
+            "properties":{
+                "PrecioDescuento": 219900,
+                "Precio": 267000,
+               "Alto": 26.2,
+               "Ancho": 45.5,
+               "Profundidad": 44,
+               "Capacidad": 20,
+               "Modelo": "RMM-20",
+               "Potencia": 700,
+               "Voltaje": 110
+    
+            }
+        }
+    ]
+}
