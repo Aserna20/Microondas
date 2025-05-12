@@ -41,7 +41,7 @@
                "Voltaje": 110
     
             }
-        }
+        },
         {
             "type": "Feature",
             "geometry": {
@@ -62,7 +62,7 @@
                "Voltaje": 110
     
             }
-        }
+        },
          {
             "type": "Feature",
             "geometry": {
@@ -84,5 +84,6 @@
     
             }
         }
+        
     ]
 }
