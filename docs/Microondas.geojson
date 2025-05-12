@@ -83,7 +83,29 @@
                "Voltaje": 110
     
             }
+        },
+          {
+            "type": "Feature",
+            "geometry": {
+                "type":"point",
+                "coordenates":[4.643894119335882, -74.06464075028867]
+            
+            },
+            "properties":{
+                "Marca":"Midea",
+                "PrecioDescuento": 299900,
+                "Precio": 507000,
+               "Alto": 25.8,
+               "Ancho": 46,
+               "Profundidad": 40,
+               "Capacidad": 20,
+               "Modelo": "MMDF07S2MG ",
+               "Potencia": 800,
+               "Voltaje": 110
+    
+            }
         }
+
         
     ]
 }
