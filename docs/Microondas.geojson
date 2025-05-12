@@ -5,7 +5,7 @@
             "type": "Feature",
             "geometry": {
                 "type":"point",
-                "coordenates":[]
+                "coordenates":[4.619434769050482, -74.08670344560898]
             
             },
             "properties":{
@@ -16,6 +16,48 @@
                "Profundidad": 44,
                "Capacidad": 20,
                "Modelo": "RMM-20",
+               "Potencia": 700,
+               "Voltaje": 110
+    
+            }
+        },
+         {
+            "type": "Feature",
+            "geometry": {
+                "type":"point",
+                "coordenates":[4.648604684123742, -74.12841592994776]
+            
+            },
+            "properties":{
+                "Marca":"KALLEY",
+                "PrecioDescuento": 269900,
+                "Precio": 399900,
+               "Alto": 25.9,
+               "Ancho": 44,
+               "Profundidad": 32.9,
+               "Capacidad": 20,
+               "Modelo": "K-MW07N",
+               "Potencia": 700,
+               "Voltaje": 110
+    
+            }
+        }
+        {
+            "type": "Feature",
+            "geometry": {
+                "type":"point",
+                "coordenates":[4.655796788343767, -74.10543246978449]
+            
+            },
+            "properties":{
+                "Marca":"GE",
+                "PrecioDescuento": 299900,
+                "Precio": 540900,
+               "Alto": 26.2,
+               "Ancho": 45.2,
+               "Profundidad": 36,
+               "Capacidad": 20,
+               "Modelo": "MGE07SEJ ",
                "Potencia": 700,
                "Voltaje": 110
     
