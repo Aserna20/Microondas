@@ -63,5 +63,26 @@
     
             }
         }
+         {
+            "type": "Feature",
+            "geometry": {
+                "type":"point",
+                "coordenates":[4.640413737802973, -74.06602243749882]
+            
+            },
+            "properties":{
+                "Marca":"ELECTROLUX",
+                "PrecioDescuento": 269900,
+                "Precio": 599900,
+               "Alto": 26.2,
+               "Ancho": 45.2,
+               "Profundidad": 36,
+               "Capacidad": 20,
+               "Modelo": "EMDO20S3GSLUG",
+               "Potencia": 950,
+               "Voltaje": 110
+    
+            }
+        }
     ]
 }
