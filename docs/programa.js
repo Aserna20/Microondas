@@ -13,11 +13,20 @@ async function cargarpuntos(){
     var miArchivo = await fetch("Microondas.geojson");
     //convertir el contenido como un geojson: objeto de javascript
     var datos= await miArchivo.json();
+    //obtener el arreglo de la llave features que es un conjunto de objetos tipo feature
+    let listaFeatures = datos["features"];
+    //obtener la geometria del primer elemento
 
-    //leer el archivo
-    console.log(datos["features"][for (let i = 0; i <= 5; i++) {
+     //leer el archivo
+    for (let i = 0; i <= 5; i++) {
+        let miscoordenadas = listaFeatures[i]["geometry"]["coordenates"];
+        var mimarcador = L.marker(miscoordenadas);
+        mimarcador.addTo(map);
+
+
   console.log(i);
-}]);
+   
+}
 };
 cargarpuntos();
 
