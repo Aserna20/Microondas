@@ -30,7 +30,6 @@ var popup = L.popup()
     .setContent("Falabella")
     .openOn(map);
 
-    let info = datos["properties"]
 
 
     
