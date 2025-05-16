@@ -18,7 +18,7 @@ async function cargarpuntos(){
     //obtener la geometria del primer elemento
 
      //leer el archivo
-    for (let i = 0; i <= 5; i++) {
+    for (let i = 0; i <= 6; i++) {
         let miscoordenadas = listaFeatures[i]["geometry"]["coordenates"];
         var mimarcador = L.marker(miscoordenadas);
         mimarcador.addTo(map);
@@ -26,9 +26,12 @@ async function cargarpuntos(){
         marker.bindPopup("<b>U.Distrital").openPopup();
 
 var popup = L.popup()
-    .setLatLng([4.62805556, -74.06527778])
-    .setContent("U Distrital.")
+    .setLatLng([4.642763501416774, -74.07479412840623])
+    .setContent("Falabella")
     .openOn(map);
+
+    let info = datos["properties"]
+
 
     
 
