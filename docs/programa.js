@@ -23,6 +23,14 @@ async function cargarpuntos(){
         var mimarcador = L.marker(miscoordenadas);
         mimarcador.addTo(map);
 
+        marker.bindPopup("<b>U.Distrital").openPopup();
+
+var popup = L.popup()
+    .setLatLng([4.62805556, -74.06527778])
+    .setContent("U Distrital.")
+    .openOn(map);
+
+    
 
   console.log(i);
    
@@ -30,9 +38,4 @@ async function cargarpuntos(){
 };
 cargarpuntos();
 
-marker.bindPopup(popupContent).openPopup();
 
-    var popup = L.popup(latlng, {content: '<p>Hello world!<br />This is a nice popup.</p>'})
-    .openOn(map);
-
-    
