@@ -125,7 +125,30 @@
                "Voltaje": 110
     
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type":"point",
+                "coordenates":[4.642763501416774, -74.07479412840623]
+            
+            },
+            "properties":{
+                "Marca":"RECCO",
+                "PrecioDescuento": 269900,
+                "Precio": 599900,
+               "Alto": 26.2,
+               "Ancho": 45.2,
+               "Profundidad": 36,
+               "Capacidad": 20,
+               "Modelo": "HM 8007",
+               "Potencia": 1050,
+               "Voltaje": 110
+    
+            }
         }
+
+        
         
         
         
