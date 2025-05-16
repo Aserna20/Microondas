@@ -35,3 +35,4 @@ marker.bindPopup(popupContent).openPopup();
     var popup = L.popup(latlng, {content: '<p>Hello world!<br />This is a nice popup.</p>'})
     .openOn(map);
 
+    
